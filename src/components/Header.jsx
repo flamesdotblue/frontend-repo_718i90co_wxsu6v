@@ -7,7 +7,7 @@ export default function Header() {
         <a href="#" className="group inline-flex items-center gap-2">
           <div className="h-8 w-8 rounded-sm bg-gradient-to-br from-slate-900 to-slate-700" />
           <span className="text-slate-900 text-lg font-semibold tracking-tight">
-            Atelier Modern
+            Chad Johnson
           </span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm text-slate-700">

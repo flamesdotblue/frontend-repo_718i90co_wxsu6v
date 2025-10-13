@@ -116,7 +116,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-medium text-slate-900">Location</p>
-                  <p className="text-slate-700">Available worldwide • Remote-first</p>
+                  <p className="text-slate-700">New York, NY • Serving clients worldwide</p>
                 </div>
               </div>
             </div>
