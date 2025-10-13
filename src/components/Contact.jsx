@@ -108,16 +108,24 @@ export default function Contact() {
               <div className="mt-6 grid grid-cols-1 gap-4 text-sm text-slate-700">
                 <div>
                   <p className="font-medium text-slate-900">Email</p>
-                  <a href="mailto:studio@example.com" className="text-slate-700 hover:text-slate-900">studio@example.com</a>
+                  <a href="mailto:chad@gmail.com" className="text-slate-700 hover:text-slate-900" aria-label="Email Chad at chad@gmail.com">chad@gmail.com</a>
                 </div>
                 <div>
                   <p className="font-medium text-slate-900">Phone</p>
-                  <a href="tel:+1234567890" className="text-slate-700 hover:text-slate-900">+1 (234) 567-890</a>
+                  <a href="tel:+917778889990" className="text-slate-700 hover:text-slate-900" aria-label="Call Chad at +91 77788 89990">+91 77788 89990</a>
                 </div>
                 <div>
                   <p className="font-medium text-slate-900">Location</p>
                   <p className="text-slate-700">New York, NY • Serving clients worldwide</p>
                 </div>
+              </div>
+              <div className="mt-6 flex gap-3">
+                <a href="mailto:chad@gmail.com" className="inline-flex items-center rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-900 hover:bg-white transition-colors">
+                  Email me
+                </a>
+                <a href="tel:+917778889990" className="inline-flex items-center rounded-full bg-slate-900 text-white px-4 py-2 text-sm font-medium hover:bg-slate-800 transition-colors">
+                  Call
+                </a>
               </div>
             </div>
           </div>
